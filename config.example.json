@@ -1,0 +1,16 @@
+{
+  "telegram_token": "123456:ABC — токен от @BotFather",
+  "admin_chat_id": 0,
+  "telegram_proxy": null,
+
+  "llm_base_url": "https://api.deepseek.com",
+  "llm_api_key": "sk-...",
+  "llm_model": "deepseek-flash",
+  "llm_proxy": null,
+
+  "_варианты_модели": {
+    "OpenRouter": ["https://openrouter.ai/api/v1", "<id модели DeepSeek с openrouter.ai/models>"],
+    "YandexGPT": ["https://llm.api.cloud.yandex.net/v1", "gpt://<folder_id>/yandexgpt/latest"],
+    "OpenAI": ["https://api.openai.com/v1", "gpt-4o-mini"]
+  }
+}
